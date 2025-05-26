@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5500', // nanti ganti ke URL frontend yang dihosting di GCP
+  origin: 'https://ganteng-dot-b-05-450507.uc.r.appspot.com', // nanti ganti ke URL frontend yang dihosting di GCP
   credentials: true
 }));
 app.use(express.json());
