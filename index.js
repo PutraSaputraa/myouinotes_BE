@@ -24,5 +24,4 @@ app.get('/', (req, res) => {
 
 // GUNAKAN PORT dari environment (Cloud Run)
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server Up and Running on port ${PORT}...`));
-``
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
